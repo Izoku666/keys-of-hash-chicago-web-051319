@@ -4,9 +4,6 @@ class Hash
     
     puts "#{arguments} are the args"
     arr = []
-    my_hash.each do |k , v|
-      puts v
-    end
     #[arguments]
     
     puts arr
