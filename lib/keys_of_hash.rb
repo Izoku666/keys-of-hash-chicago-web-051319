@@ -8,11 +8,8 @@ class Hash
     #[arguments]
     arr = []
     #puts arguments
-    self.each do |k , v|
-      puts "value of first loop : #{v}"
-      v.each do |i , u|
-        puts "value of second loop : #{i}"
-      end
+    self.select do |k , v|
+      v = arguments
     end
     puts arr
     return arr
