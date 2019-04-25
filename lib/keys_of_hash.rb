@@ -10,7 +10,7 @@ class Hash
     #puts arguments
     self.each do |k , v|
       puts "value of first loop : #{v}"
-      v.each do |i|
+      v.each do |i , u|
         puts "value of second loop : #{i}"
       end
     end
