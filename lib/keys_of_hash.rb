@@ -4,7 +4,7 @@ class Hash
     
     arr = []
     self.each do |k , v|
-      k << arr
+      arr << k
     end
     
     puts "#{arr} is the result"
