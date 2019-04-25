@@ -3,7 +3,11 @@ class Hash
     # code goes here
     
     #puts "#{arguments} are the args"
-    arr = []
+    arr = *arguments
+    arguments.each do |i|
+      puts i
+      end
+      
     #[arguments]
     
     puts arr
