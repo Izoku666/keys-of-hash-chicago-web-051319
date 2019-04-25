@@ -8,6 +8,9 @@ class Hash
         arr << k
         arguments.each do |i|
           puts i
+          if i == v
+            arr << k
+          end
         end
       #  puts "#{arguments} is arg , #{v} is the passed val"
       #  if arguments == v
