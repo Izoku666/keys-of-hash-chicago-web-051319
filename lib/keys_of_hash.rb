@@ -9,7 +9,7 @@ class Hash
     arr = []
     #puts arguments
     self.each do |k , v|
-      puts "#{k} , #{v}"
+      puts "key:#{k} , value:#{v}"
       if k == arguments
         puts "Found one!"
       end
