@@ -2,7 +2,7 @@ class Hash
   def keys_of(arguments)
     # code goes here
     
-    puts "#{arguments} are the args"
+    #puts "#{arguments} are the args"
     arr = []
     #[arguments]
     
