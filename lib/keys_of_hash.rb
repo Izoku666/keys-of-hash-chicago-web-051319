@@ -11,7 +11,7 @@ class Hash
     self.each do |k , v|
       #puts "key: #{k} , value: #{v}"
       puts self[k]
-      self[k].each do |i|
+      arguments.each do |i|
         if i == arguments
           arr.push(v)
         end
