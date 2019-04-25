@@ -8,7 +8,7 @@ class Hash
     #[arguments]
     arr = []
     #puts arguments
-    self.select do |k , v|
+   a =  self.select do |k , v|
       v = arguments
     end
     puts arr
