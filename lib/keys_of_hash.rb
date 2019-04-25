@@ -14,7 +14,7 @@ class Hash
         arr.push(k)
       end
     end
-
+    puts arr
     return arr
   end
 end
