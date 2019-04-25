@@ -3,7 +3,7 @@ class Hash
     # code goes here
     arr = []
     
-    [arguments]
+    #[arguments]
     
     if arr.length == 1
       arr = arr[0]
