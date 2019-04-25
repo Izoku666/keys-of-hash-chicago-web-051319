@@ -10,8 +10,8 @@ class Hash
     #puts arguments
     self.each do |k , v|
       puts "key:#{k} , value:#{v}"
-      if k == arguments
-        puts "Found one!"
+      if v == arguments
+        arr.push(k)
       end
     end
 
