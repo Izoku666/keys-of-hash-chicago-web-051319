@@ -12,6 +12,7 @@ class Hash
       puts "value of first loop : #{v}"
       v.each do |i|
         puts "value of second loop : #{i}"
+      end
     end
     puts arr
     return arr
