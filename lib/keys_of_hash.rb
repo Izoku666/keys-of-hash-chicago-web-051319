@@ -10,7 +10,7 @@ class Hash
     #puts arguments
     self.each do |k , v|
       puts "key: #{k} , value: #{v}"
-      if v == arguments
+      if self[k] == arguments
         arr.push(k)
       end
     end
