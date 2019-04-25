@@ -3,7 +3,7 @@ class Hash
     # code goes here
     arr = []
     my_hash.each do |k , v|
-      arr << my_hash(v)
+      puts v
     end
     #[arguments]
     
