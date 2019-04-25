@@ -3,11 +3,11 @@ class Hash
     # code goes here
     
     arr = []
-    #puts arguments
     self.each do |k , v|
-=
+      
     end
-    puts arr
+    
+    puts "#{arr} is the result"
     return arr
   end
 end
