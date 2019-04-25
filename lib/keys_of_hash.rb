@@ -5,7 +5,7 @@ class Hash
     arr = []
     #puts "#{arguments} are the args"
     self.each do |k , v|
-        arr << k
+       # arr << k
         arguments.each do |i|
           puts i
           if i == v
