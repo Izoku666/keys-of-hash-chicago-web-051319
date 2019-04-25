@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     # code goes here
     
     #puts "#{arguments} are the args"
@@ -7,7 +7,7 @@ class Hash
       
     #[arguments]
     
-    puts arr
+    puts arguments
     return arr
   end
 end
