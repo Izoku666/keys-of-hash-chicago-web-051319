@@ -8,7 +8,9 @@ class Hash
     #[arguments]
     
     puts arguments
-    
+    self.each do |k , v|
+      puts v
+    end
     return arr
   end
 end
