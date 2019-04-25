@@ -7,6 +7,7 @@ class Hash
     end
     #[arguments]
     
+    puts arr
     return arr
   end
 end
