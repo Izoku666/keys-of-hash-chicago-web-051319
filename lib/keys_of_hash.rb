@@ -4,7 +4,9 @@ class Hash
     
     arr = []
     self.each do |k , v|
-      arr << k
+      if v == arguments
+        arr << k
+      end
     end
     
     puts "#{arr} is the result"
