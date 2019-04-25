@@ -7,12 +7,13 @@ class Hash
       
     #[arguments]
     arr = []
-    puts arguments
+    #puts arguments
     self.each do |k , v|
       v.each do |i|
         arr << i
       end
     end
+    puts arr
     return arr
   end
 end
