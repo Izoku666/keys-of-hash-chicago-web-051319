@@ -6,6 +6,9 @@ class Hash
     puts "#{arguments} are the args"
     self.each do |k , v|
         arr << k
+        if arguments == k
+          puts "Found something to push yo"
+        end
     end
     
     puts "#{arr} is the result"
