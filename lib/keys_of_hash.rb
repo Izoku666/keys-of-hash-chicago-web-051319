@@ -9,10 +9,9 @@ class Hash
     arr = []
     #puts arguments
     self.each do |k , v|
+      puts "value of first loop : #{v}"
       v.each do |i|
-        arr << i
-        puts i
-      end
+        puts "value of second loop : #{i}"
     end
     puts arr
     return arr
