@@ -3,7 +3,7 @@ class Hash
     # code goes here
     
     arr = []
-    puts "#{arguments} are the args"
+    #puts "#{arguments} are the args"
     self.each do |k , v|
         arr << k
         puts "#{arguments} is arg , #{v} is the passed val"
