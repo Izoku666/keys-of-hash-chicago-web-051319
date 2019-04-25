@@ -8,9 +8,10 @@ class Hash
     #[arguments]
     arr = []
     #puts arguments
-    self.select do |k , v|
-      v == arguments
-      arr << v
+    self.each do |k , v|
+      if v == *arguments
+        puts "Found one!"
+      end
     end
 
   puts arr
