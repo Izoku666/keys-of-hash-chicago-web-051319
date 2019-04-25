@@ -10,7 +10,7 @@ class Hash
     #puts arguments
     self.each do |k , v|
       puts "#{k} , #{v}"
-      if v == arguments
+      if k == arguments
         puts "Found one!"
       end
     end
