@@ -11,6 +11,7 @@ class Hash
     self.each do |k , v|
       v.each do |i|
         arr << i
+        puts i
       end
     end
     puts arr
