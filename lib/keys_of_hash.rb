@@ -8,6 +8,7 @@ class Hash
     #[arguments]
     
     puts arguments
+    
     return arr
   end
 end
