@@ -13,7 +13,7 @@ class Hash
       arr << v
     end
 
-  puts a
+  puts arr
     return arr
   end
 end
