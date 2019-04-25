@@ -6,7 +6,7 @@ class Hash
     
       
     #[arguments]
-    
+    arr = []
     puts arguments
     self.each do |k , v|
       v.each do |i|
