@@ -11,9 +11,12 @@ class Hash
     self.each do |k , v|
       #puts "key: #{k} , value: #{v}"
       puts self[k]
-      if self[k] == arguments
-        arr.push(k)
+      self[k].each do |i|
+        if i == arguments
+          arr.push(v)
+        end
       end
+      
     end
     puts arr
     return arr
