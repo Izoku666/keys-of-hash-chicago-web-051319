@@ -9,7 +9,8 @@ class Hash
     
     puts arguments
     self.each do |k , v|
-      puts v
+      v.each do |i|
+        arr << i
     end
     return arr
   end
