@@ -13,6 +13,7 @@ class Hash
       puts "for #{arguments}, v == #{v}"
     end
 
+  puts a
     return arr
   end
 end
