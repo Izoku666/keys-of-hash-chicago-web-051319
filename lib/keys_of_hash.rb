@@ -4,6 +4,7 @@ class Hash
     arr = []
     my_hash.each do |k , v|
       arr << my_hash(v)
+    end
     #[arguments]
     
     return arr
