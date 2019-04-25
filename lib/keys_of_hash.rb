@@ -10,8 +10,9 @@ class Hash
     #puts arguments
     a =  self.select do |k , v|
       v == arguments
+      puts "for #{arguments}, v == #{v}"
     end
-    puts arr
+
     return arr
   end
 end
